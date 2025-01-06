@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pavan Thumati - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="hero-container">
+      <h1>Hi, I'm Pavan Thumati</h1>
+      <p>As a DevOps engineer, I bridge the gap between development and operations by automating workflows, optimizing deployment processes, and ensuring seamless integration and continuous delivery.</p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="section-container">
+      <h2>About Me</h2>
+      <p>I’m a passionate DevOps engineer dedicated to enhancing the collaboration between development and operations teams. With a strong background in automation, continuous integration (CI), continuous delivery (CD), and cloud infrastructure, I focus on optimizing workflows to accelerate software delivery while ensuring reliability and scalability. I thrive in fast-paced environments, using tools like Docker, Kubernetes, Jenkins, and AWS to automate processes, reduce downtime, and deliver seamless, high-quality solutions. My goal is to streamline the software development lifecycle and drive innovation through efficient and scalable systems.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-container">
+      <h2>Projects</h2>
+
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built to showcase my work and skills.</p>
+        <a href="https://github.com/PavanThumati/Beginner-Project-1" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <h3>DEFECT DETECTION SYSTEM FOR RED CHILLI USING YOLO</h3>
+        <p>The system aims to develop an automated red chili sorting system using advanced computer vision technology and an IoT setup. This system will revolutionize the sorting process by accurately identifying and segregating red chilies based on their color and quality, ensuring only high-quality chilies proceed for further processing.</p>
+        <a href="https://github.com/PavanThumati/Mirchi" target="_blank">View on GitHub</a>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" action="javascript:void(0);">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div id="form-message"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <p>&copy; 2025 Pavan Thumati | DevOps Enginner</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
